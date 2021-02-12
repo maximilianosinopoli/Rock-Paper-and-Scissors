@@ -40,10 +40,10 @@ const game = () => {
           //Update Images
           playerHand.src = `./assets/${this.textContent}.png`;
           computerHand.src = `./assets/${computerChoice}.png`;
-        }, 2000);
+        }, 1500);
         //Animation
-        playerHand.style.animation = "shakePlayer 2s ease";
-        computerHand.style.animation = "shakeComputer 2s ease";
+        playerHand.style.animation = "shakePlayer 1.5s ease";
+        computerHand.style.animation = "shakeComputer 1.5s ease";
       });
     });
   };
